@@ -1,0 +1,3 @@
+# Build artifacts
+src/**/bin/
+src/**/obj/
