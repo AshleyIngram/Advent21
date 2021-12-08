@@ -8,7 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Tests.fs" />
+    <ProjectReference Include="..\src\Advent21\Advent21.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="day1.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
@@ -25,4 +29,5 @@
     </PackageReference>
   </ItemGroup>
 
+  <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>

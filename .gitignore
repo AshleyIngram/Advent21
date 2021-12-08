@@ -3,3 +3,12 @@ src/**/bin/
 src/**/obj/
 test/**/bin/
 test/**/obj/
+
+# Dependencies
+.paket/
+.paket-files
+.fake
+.ionide
+
+# Input data. Can be fetched from the advent of code website, so it doesn't need to be checked in!
+input.csv
