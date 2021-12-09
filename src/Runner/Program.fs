@@ -7,7 +7,7 @@ let readFileAsNumbers path =
 let main argv =
     printfn "Running Day 1 Problem 1"
 
-    let result = readFileAsNumbers "input.csv" |> Advent21.Day1.part1
+    let result = readFileAsNumbers "input.csv" |> Advent21.Day1.part2
     printfn "Result: %i" result
 
     0
