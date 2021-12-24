@@ -1,7 +1,4 @@
-open System.IO
-
-let readFileAsNumbers path = 
-    File.ReadLines(path) |> Seq.map int
+﻿open System.IO
 
 [<EntryPoint>]
 let main argv =
